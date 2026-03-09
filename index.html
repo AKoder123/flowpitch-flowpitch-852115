@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>FlowPitch</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Background gradient/aurora layers (fixed, behind everything) -->
+  <div class="bgLayer layer-aurora" aria-hidden="true"></div>
+  <div class="bgLayer layer-glow" aria-hidden="true"></div>
+
+  <!-- Top navigation -->
+  <header id="topNav" role="banner">
+    <div class="navInner">
+      <div class="brand">
+        <span class="brandMark" aria-hidden="true"></span>
+        <span id="brandTitle">FlowPitch</span>
+      </div>
+      <nav class="controls" aria-label="Slide controls">
+        <button id="prevBtn" class="navBtn" type="button" aria-label="Previous slide">‹ Prev</button>
+        <button id="nextBtn" class="navBtn primary" type="button" aria-label="Next slide">Next ›</button>
+        <div class="spacer"></div>
+        <button id="exportPdfBtn" class="navBtn ghost" type="button">Export PDF</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Top progress bar (thin, fixed) -->
+  <div id="topProgress" aria-hidden="true"><div id="topProgressBar"></div></div>
+
+  <!-- Side dots (fixed) -->
+  <nav id="sideDots" aria-label="Slide progress"></nav>
+
+  <!-- Main deck container -->
+  <main id="deck" role="region" aria-label="Presentation">
+    <div id="slides" class="slides"></div>
+  </main>
+
+  <!-- Off-screen stage for high-quality PDF capture -->
+  <div id="pdfStage" aria-hidden="true"></div>
+
+  <script defer src="./app.js"></script>
+</body>
+</html>

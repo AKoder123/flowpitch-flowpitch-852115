@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "deckId": "flowpitch",
+    "title": "Core DNA pitch",
+    "theme": "Blue"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "headline": "FlowPitch for Core dna",
+      "subheadline": "Activate your source of truth into buyer-ready experiences."
+    },
+    {
+      "type": "section",
+      "headline": "The problem today",
+      "subheadline": "Static content slows revenue teams"
+    },
+    {
+      "type": "content",
+      "headline": "Static handoffs create friction",
+      "bullets": [
+        "Marketing ships PDFs and web pages",
+        "Sales rebuilds decks by hand",
+        "Content versions drift and duplicate",
+        "Buyers get generic, stale assets"
+      ]
+    },
+    {
+      "type": "section",
+      "headline": "The FlowPitch approach",
+      "subheadline": "Personalized, connected, always-current"
+    },
+    {
+      "type": "content",
+      "headline": "From Core dna to tailored experiences",
+      "bullets": [
+        "Pull approved content from Core dna",
+        "Assemble per-account presentations",
+        "Generate interactive proposal microsites",
+        "Create account-specific product walkthroughs",
+        "Spin up onboarding presentations",
+        "Enable partners with curated portals"
+      ]
+    },
+    {
+      "type": "beforeAfter",
+      "headline": "From static to activated",
+      "left": {
+        "title": "Before",
+        "bullets": [
+          "Static PDFs and decks",
+          "Manual copy-paste work",
+          "Version chaos"
+        ]
+      },
+      "right": {
+        "title": "After",
+        "bullets": [
+          "Personalized decks in minutes",
+          "One source of truth",
+          "Consistent buyer experience"
+        ]
+      }
+    },
+    {
+      "type": "content",
+      "headline": "Why it matters",
+      "bullets": [
+        "Less manual work for sales",
+        "Stronger personalization at scale",
+        "Faster time to value",
+        "Always on-brand and current"
+      ]
+    },
+    {
+      "type": "content",
+      "headline": "How it works",
+      "left": {
+        "title": "FlowPitch",
+        "bullets": [
+          "Connect to Core dna spaces",
+          "Map components to templates",
+          "Choose account and audience"
+        ]
+      },
+      "right": {
+        "title": "Output",
+        "bullets": [
+          "Deck or mini-site",
+          "Sharable secure link",
+          "Analytics-ready"
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "headline": "Use cases",
+      "subheadline": "Where teams start"
+    },
+    {
+      "type": "content",
+      "headline": "Programs you can launch now",
+      "bullets": [
+        "Tailored sales decks",
+        "Interactive proposal microsites",
+        "Account-specific walkthroughs",
+        "Onboarding presentations",
+        "Partner enablement portals",
+        "Industry demo environments"
+      ]
+    },
+    {
+      "type": "closing",
+      "headline": "Ready to activate Core dna with FlowPitch?",
+      "subheadline": "Let’s build your first personalized deck."
+    }
+  ]
+}
